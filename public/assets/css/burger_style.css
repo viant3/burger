@@ -6,7 +6,7 @@
 .heading {
   font-size: 30px;
   font-weight: bold;
-  color: red;
+  color: black;
   display:block;
   margin: 0 auto;
   padding-bottom: 10px;
@@ -20,11 +20,11 @@ ul,li {
 }
 
 .btnDevour {
-  background: rgb(255, 131, 23);
+  background: red;
   font-weight: bold;
   color: black;
   padding: 5px;
-  border: 1px solid #FF851B;
+  border: 1px solid red;
   border-radius: 5px;
   margin-bottom: 10px;
   display: inline-block;
@@ -33,7 +33,7 @@ ul,li {
 
 .burgerType {
   font-size: 25px;
-  color: aquamarine;
+  color: blue;
   padding-top: 12px;
 }
 
@@ -50,6 +50,6 @@ ul,li {
 }
 
 #textArea {
-  color: red;
+  color: black;
 }
 

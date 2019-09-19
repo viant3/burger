@@ -5,10 +5,12 @@
             <div class="input text-center">
                 <h2 class="heading headTitle" id="add">Add A Burger</h2>
                 <div class="form-group">
-                    <form method="POST" action="api/burgers" class="addOne text-center">
-                        <textarea id="textArea" type="text" name="burger_name" rows="2" cols="40"></textarea>
-                        <button id="btnCreate" type="submit">Create!</button>
-                    </form>
+                    <form class="create-update-form" action="api/burgers" method="POST">
+		 <div class="form-group">
+		 	<textarea class="form-control input-lg" type="text" name="burger_name" row="3"></textarea>
+		 </div>
+		 <button class="btn btn-default btn-lg" type="submit">Submit</button>
+		</form>
                 </div>
             </div>
         </div>
