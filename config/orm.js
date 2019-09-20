@@ -1,4 +1,3 @@
-//Need to require connection.js so that the ORM can communicate/talk with the database.
 var connection = require("./connection.js");
 
 // Helper function for SQL syntax.

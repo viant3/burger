@@ -23,7 +23,7 @@
                     {{#each burgers}} {{#unless this.devoured}}
                         <li>
                             <p class="burgerType">{{this.burger_name}}</p>
-                            <form action="api/burgers/{{this.id}}?_method=PUT" method="POST" class="dev">
+                            <form action="/api/burgers/{{this.id}}" method="POST" class="dev">
                                 <input type="hidden" name="devoured" value="true">
                                 <button class="btnDevour" type="submit">Devour it</button>
                             </form>
