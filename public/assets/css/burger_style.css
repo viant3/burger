@@ -20,11 +20,11 @@ ul,li {
 }
 
 .btnDevour {
-  background: red;
+  background: black;
   font-weight: bold;
-  color: black;
+  color: white;
   padding: 5px;
-  border: 1px solid red;
+  border: 1px solid black;
   border-radius: 5px;
   margin-bottom: 10px;
   display: inline-block;
@@ -33,18 +33,18 @@ ul,li {
 
 .burgerType {
   font-size: 25px;
-  color: blue;
+  color: black;
   padding-top: 12px;
 }
 
 #btnCreate {
   display: block;
   margin: 0 auto;
-  background: rgb(255, 131, 23);
+  background: black;
   color: black;
   font-weight: bold;
   padding: 5px;
-  border: 1px solid #FF851B;
+  border: 1px solid black;
   border-radius: 5px;
   margin-bottom: 5px;
 }
@@ -52,3 +52,4 @@ ul,li {
 #textArea {
   color: black;
 }
+
